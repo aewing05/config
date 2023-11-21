@@ -9,7 +9,6 @@ export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/b
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
-
 # Find and set branch name if in git repository
 
 function git_branch_name()
