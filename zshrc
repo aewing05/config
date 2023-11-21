@@ -1,24 +1,13 @@
-# BEGIN env Setup -- Managed by Ansible DO NOT EDIT.
+# Company Managed Stuff
+source ~/.indeed_zshrc
 
-# Setup INDEED_ENV_DIR earlier.
-if [ -z "${INDEED_ENV_DIR}" ]; then
-    export INDEED_ENV_DIR="/Users/aewing/env"
-fi
 
-# Single-brace syntax because this is required in bash and sh alike
-if [ -e "${INDEED_ENV_DIR}/etc/indeedrc" ]; then
-    . "${INDEED_ENV_DIR}/etc/indeedrc"
-fi
-# END env Setup -- Managed by Ansible DO NOT EDIT.
-
+# VS Code
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
 # Initialize pyenv
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
-
-
-. "/Users/aewing/.indeed-kube-profile"
 
 
 # Find and set branch name if in git repository
