@@ -1,3 +1,8 @@
+# Company Managed Stuff
+source ~/.indeed_zshrc
+
+
+# VS Code
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
 # Initialize pyenv
