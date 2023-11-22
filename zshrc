@@ -31,3 +31,6 @@ setopt prompt_subst
 
 # Prompt without user@host
 PROMPT=$'%F{13}%~%f $(git_branch_name) \U1F47B '
+
+# Aliases
+alias vim='nvim'
