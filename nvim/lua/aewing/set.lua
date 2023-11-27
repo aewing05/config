@@ -17,3 +17,5 @@ vim.o.number = true
 vim.o.cursorline = true
 vim.o.linebreak = true
 vim.o.autoindent = true
+
+vim.o.mouse = ''
