@@ -12,3 +12,8 @@ Remove your existing configuration files, and set up symlinks (here we assume `~
 `ln -s ~/config/nvim/* ~/.config/nvim`
 
 Now, we can edit the git repo, and changes will be automatically read locally through symlinking
+
+# MacOS Settings
+System settings to change on MacOS
+1. Remap caps lock key to escape - `System Settings > Keyboard > Keyboard Shortcuts > Modifier Keys`
+2. Map `⌘1`, `⌘2`, ... , `⌘n` to change Desktops - `System Settings > Keyboard > Keyboard Shortcuts > Mission Control`
