@@ -1,6 +1,4 @@
 # config
-Repository for my dotfiles
-
 ## Use
 Pull repo down into a new `~/config` dir (note this is not `~/.config`
 
@@ -17,3 +15,4 @@ Now, we can edit the git repo, and changes will be automatically read locally th
 System settings to change on MacOS
 1. Remap caps lock key to escape - `System Settings > Keyboard > Keyboard Shortcuts > Modifier Keys`
 2. Map `⌘1`, `⌘2`, ... , `⌘n` to change Desktops - `System Settings > Keyboard > Keyboard Shortcuts > Mission Control`
+3. Download `GruvboxDark.itermcolors`, and import into Iterm2 - `Settings > Profiles > Colors > Color Preset > Import/Select`
