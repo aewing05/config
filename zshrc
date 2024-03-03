@@ -36,4 +36,5 @@ PROMPT=$'%F{13}%~%f $(git_branch_name) \U1F47B '
 alias vim='nvim'
 alias obsidian="vim '/Users/aewing/Library/Mobile Documents/iCloud~md~obsidian/Documents/aewing notes'"
 
-alias journal='sh ~/scripts/journal.sh'
+alias journal='sh ~/scripts/gen-templ.sh journal'
+alias dailynote'sh ~/scripts/gen-templ.sh dailynote'
