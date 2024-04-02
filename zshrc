@@ -26,15 +26,14 @@ function git_branch_name()
 setopt prompt_subst
 
 # Appearance
-# Prompt with user@host
-# PROMPT=$'%B%F{13}%n@%m%f%b %F{51}%~%f %F{13}$(git_branch_name)%f \U1F47B '
-
 # Prompt without user@host
 PROMPT=$'%F{13}%~%f $(git_branch_name) \U1F47B '
 
+# Obsidian Path
+local obsidian_path='/Users/aewing/Library/Mobile Documents/iCloud~md~obsidian/Documents/aewing notes'
+
 # Aliases
 alias vim='nvim'
-alias obsidian="vim '/Users/aewing/Library/Mobile Documents/iCloud~md~obsidian/Documents/aewing notes'"
-
+alias obsidian="cd '$obsidian_path' && vim '$obsidian_path'"
 alias journal='sh ~/scripts/gen-templ.sh journal'
-alias dailynote'sh ~/scripts/gen-templ.sh dailynote'
+alias dailynote='sh ~/scripts/gen-templ.sh dailynote'
