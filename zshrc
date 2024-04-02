@@ -26,8 +26,6 @@ function git_branch_name()
 setopt prompt_subst
 
 # Appearance
-# Prompt with user@host
-
 # Prompt without user@host
 PROMPT=$'%F{13}%~%f $(git_branch_name) \U1F47B '
 
