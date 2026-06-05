@@ -1,13 +1,13 @@
 # Company Managed Stuff
-source ~/.indeed_zshrc
+# source ~/.indeed_zshrc
 
 
 # VS Code
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
 # Initialize pyenv
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
+# eval "$(pyenv init -)"
+# eval "$(pyenv virtualenv-init -)"
 
 # Find and set branch name if in git repository
 
@@ -31,9 +31,11 @@ PROMPT=$'%F{13}%~%f $(git_branch_name) \U1F47B '
 
 # Obsidian Path
 local obsidian_path='/Users/aewing/Library/Mobile Documents/iCloud~md~obsidian/Documents/aewing notes'
-
+alias clobsidian="cd '$obsidian_path' && claude"
 # Aliases
 alias vim='nvim'
-alias obsidian="cd '$obsidian_path' && vim '$obsidian_path'"
+# alias obsidian="cd '$obsidian_path' && vim '$obsidian_path'"
 alias journal='sh ~/scripts/gen-templ.sh journal'
 alias dailynote='sh ~/scripts/gen-templ.sh dailynote'
+export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
